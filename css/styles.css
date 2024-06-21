@@ -612,7 +612,8 @@ img {
   flex-direction: column;
 }
 
-.footer-email {
+.footer-email-label {
+  margin-bottom: 24px;
 }
 
 .footer-input {
@@ -1005,8 +1006,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 108px;
-    /* gap: 24px 72px; */
-    /* align-items: baseline; */
   }
 
   .footer-logo-part {
@@ -1170,5 +1169,18 @@ img {
 
   .portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
+  }
+
+  .footer-container {
+    display: flex;
+    margin-left: 156px;
+  }
+
+  .footer-social-part {
+    margin-left: 120px;
+  }
+
+  .footer-modal-part {
+    margin-left: 80px;
   }
 }
