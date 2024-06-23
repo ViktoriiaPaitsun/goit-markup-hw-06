@@ -54,13 +54,13 @@
         </button>
       </div>
       <div class="mob-menu container">
-        <div class="">
+        <div class="mob-menu-navigation">
           <button type="button" class="menu-close-btn">
             <svg width="8" height="8">
               <use href="./images/icons.svg#icon-menu-close"></use>
             </svg>
           </button>
-          <nav class="mob-navigation">
+          <nav class="mob-nav">
             <ul class="mob-nav-list">
               <li class="mob-nav-item">
                 <a class="mob-nav-link current" href="./index.html">Studio</a>
@@ -639,11 +639,9 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-logo-part">
-          <div class="footer-logo-title">
-            <a class="logo footer-logo" href="./index.html"
-              >Web<span class="logo-part-footer">Studio</span></a
-            >
-          </div>
+          <a class="logo footer-logo" href="./index.html"
+            >Web<span class="logo-part-footer">Studio</span></a
+          >
           <p class="footer-logo-text text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -684,25 +682,23 @@
         </div>
         <div class="footer-modal-part">
           <p class="footer-social-text text">Subscribe</p>
-          <div class="footer-form-submit">
-            <form class="footer-form">
-              <label for="footer-email" class="footer-email-label">
-                <input
-                  type="email"
-                  id="footer-email"
-                  name="footer-email"
-                  class="footer-input"
-                  placeholder="E-mail"
-                />
-              </label>
-            </form>
+          <form class="footer-form">
+            <label for="footer-email" class="footer-email-label">
+              <input
+                type="email"
+                id="footer-email"
+                name="footer-email"
+                class="footer-input"
+                placeholder="E-mail"
+              />
+            </label>
             <button type="submit" class="footer-form-btn">
               Subscribe
               <svg class="footer-send-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
